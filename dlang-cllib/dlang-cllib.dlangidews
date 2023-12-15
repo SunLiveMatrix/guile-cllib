@@ -1,0 +1,9 @@
+{
+    "name": "dlang-cllib",
+    "description": null,
+    "projects": {
+        "cllib": "cllib/dub.json"
+    },
+    "includePath": {
+    }
+}

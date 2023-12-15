@@ -1,0 +1,19 @@
+{
+    "startupProject": "cllib",
+    "breakpoints": [
+    ],
+    "bookmarks": [
+    ],
+    "files": [
+        {
+            "file": "/home/admin/dlang-project/guile-cllib/dlang-cllib/cllib/source/app.d",
+            "column": 0,
+            "row": 0
+        }
+    ],
+    "expandedItems": [
+        "/home/admin/dlang-project/guile-cllib/dlang-cllib/cllib/source",
+        "/home/admin/dlang-project/guile-cllib/dlang-cllib/cllib/dub.json"
+    ],
+    "selectedWorkspaceItem": "/home/admin/dlang-project/guile-cllib/dlang-cllib/cllib/source/call"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "cllib",
+    "targetName": "cllib",
+    "targetType": "executable",
+    "targetPath": "bin"
+}

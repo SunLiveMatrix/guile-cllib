@@ -1,0 +1,18 @@
+(defun ascii-octets (string)
+  (loop initially (unless string (return nil))
+        with length fixnum = (length string)
+        with vector = (make-array length :element-type 'octet)
+        for i fixnum below length for char of-type character = (char string i)
+        for char-code of-type (integer 0 (#.char-code-limit)) = (char-code char)
+        unless (typep char-code 'octet) do (error "~S isn't 8-bit ASCII." char)
+        do (setf (aref vector i) char-code) finally (return vector)))
+
+(defun octets-ascii (vector)
+  (loop initially (unless vector (return nil))
+        with length fixnum = (length vector)
+        with string = (make-string length)
+        for i fixnum from 0 below length
+        for char-code = (aref vector i)
+        for char = (code-char char-code)
+        do (setf (char string i) char)
+        finally (return string)))
