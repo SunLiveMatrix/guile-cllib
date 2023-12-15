@@ -15,17 +15,6 @@ import std.stdio;
 import std.stdint;
 
 
-
-
-
-
-
-
-
-
-
-
-
 // This is the cloud shadows that are used to generate the shadow effect for the clouds in the
 // cloud shadows.
 
